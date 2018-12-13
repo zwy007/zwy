@@ -1,0 +1,11 @@
+/*公共样式开始*/
+*{
+	margin: 0; padding: 0;
+}
+a{
+	text-decoration: none; color: black;
+}
+ul,li{
+	list-style: none;
+}
+/*公共样式结束*/

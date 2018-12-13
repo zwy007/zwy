@@ -1,0 +1,274 @@
+/*header开始*/
+header{
+	width: 100%;
+	height: 69px;
+	background: white;
+}
+header #header{
+	width: 1190px;
+	height: 68px;
+	padding: 0 5px;
+	background: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #919191;
+	font-size: 12px;
+}
+header #header a{
+	color: #3f3f3f;
+}
+header #header a:hover{
+	text-decoration: underline;
+	color: #A10000;
+}
+/*header结束*/
+
+
+/*section开始*/
+section{
+	width: 100%;
+	padding: 45px 0;
+}
+section #section{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+section #section .left{
+	width: 465px;
+	height: 352px;
+}
+section #section .right{
+	width: 402px;
+}
+section #section .right .tit{
+	width: 402px;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section #section .right .tit h2{
+	font-size: 22px; color: #979797;
+}
+section #section .right .tit p{
+	font-size: 12px; color: #979797;
+}
+section #section .right .tit p a{
+	color: #b42025;
+}
+section #section .right .tit p a:hover{
+	text-decoration: underline;
+}
+
+section #section .right .right_con{
+	width: 400px;
+	border: 1px solid #d1d1d1;
+}
+
+/*表单*/
+section #section .right .login_tab{
+	width: 400px;
+}
+section #section .right .login_tab .login_fs_name{
+	width: 400px;
+	height: 35px;
+	border-bottom: 1px solid #cbcbcb;
+}
+section #section .right .login_tab .login_fs_name li{
+	float: left;
+	width: 200px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	background: #f5f5f5;
+	color: #656565;
+}
+section #section .right .login_tab .login_fs_name .login_li{
+	background: #b42025;
+	color: white;
+}
+section #section .right .login_tab .login_fs{
+	width: 400px;
+	overflow: hidden;
+}
+#section .right .login_tab .login_fs .logon_normal{
+	padding: 10px 18px 41px 20px;
+	float: left;
+}
+#section .right .login_tab .login_fs .logon_normal form p:nth-child(3) b:hover{
+	text-decoration: underline;
+}
+#section .right .login_tab .login_fs  p{
+	width: 360px;
+	height: 45px;
+	line-height: 45px;
+	margin: 18px 0;
+	
+}
+#section .right .login_tab .login_fs  p input{
+	width: 360px;
+	height: 45px;
+	border: 1px solid #cbcbcb;
+	color: #656565;
+	font-size: 12px;
+	text-indent: 10px;
+	background: white;
+	outline: none;
+}
+#section .right .login_tab .login_fs  p input::-webkit-input-placeholder{
+	text-indent: 10px;
+	font-size: 12px;
+	color: #acacac;
+}
+#section .right .login_tab .login_fs .logon_normal p:nth-child(3){
+	line-height: 30px;
+	text-align: right;
+	height: 30px;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+#section .right .login_tab .login_fs .logon_normal p:nth-child(3) a{
+	color: #b42025;
+}
+#section .right .login_tab .login_fs .logon_normal p:nth-child(4){
+	margin: 0;
+}
+#section .right .login_tab .login_fs p:nth-child(4) input{
+	width: 360px; height: 45px;
+	line-height: 45px;
+	background: #b42025;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+
+#section .right .login_tab .login_fs .logon_fast{
+	padding: 0 18px 23px 20px;
+	float: left;
+	display: none;
+}
+#section .right .login_tab .login_fs .logon_fast p:nth-child(1),
+#section .right .login_tab .login_fs .logon_fast p:nth-child(2){
+	width: 360px;
+}
+#section .right .login_tab .login_fs .logon_fast p:nth-child(1) input,
+#section .right .login_tab .login_fs .logon_fast p:nth-child(2) input{
+	width: 250px;
+}
+#section .right .login_tab .login_fs .logon_fast  em{
+	background: #f5f5f5;
+	border: 1px solid #cbcbcb;
+	display: inline-block;
+	width: 97px;
+	height: 45px;
+	font-size: 12px;
+	color: #b52024;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 4px;
+}
+#section .right .login_tab .login_fs .logon_fast p:nth-child(2) em{
+	font-size: 20px;
+}
+
+
+section #section .right .hezuo{
+	width: 380px; height: 97px;
+	border-top: 1px dotted #909090;
+	background: white;
+	font-size: 14px;
+	color: #a4a4a4;
+	padding-left: 20px;
+}
+section #section .right .hezuo h3{
+	margin: 20px 0 12px 0;
+}
+section #section .right .hezuo ul{
+	width: 380px; height: 33px;
+}
+section #section .right .hezuo ul li a{
+	background: url(../img/logos.jpg);
+	width: 33px; height: 33px; margin-right: 15px;
+	float: left;
+}
+section #section .right .hezuo ul li:nth-child(1) a{
+	background-position: 0px 0px;
+}
+section #section .right .hezuo ul li:nth-child(2) a{
+	background-position: -147px 0px;
+}
+section #section .right .hezuo ul li:nth-child(3) a{
+	background-position: -48px 0px;
+}
+section #section .right .hezuo ul li:nth-child(4) a{
+	background-position: -187px 0px;
+}
+section #section .right .hezuo ul li:nth-child(5) a{
+	background-position: -228px 0px;
+}
+section #section .right .hezuo ul li:nth-child(6) a{
+	width: 45px;
+	background-position: -92px 0px;
+}
+/*section结束*/
+
+
+
+/*footer开始*/
+footer{
+	width: 100%;
+	padding-bottom: 25px;
+	background: white;
+}
+footer #footer{
+	width: 1200px;
+	height: ;
+	background: white;
+	margin: 0 auto;
+	border-top: 1px solid #999999;
+}
+footer #footer .foot_top{
+	line-height: 55px;
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+}
+footer #footer .foot_bot{
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer #footer .foot_bot a{
+	display: block;
+	background: url(../img/spritesbgtop.png);
+	margin: 0 10px;
+}
+footer #footer .foot_bot a:nth-child(1){
+	width: 112px;
+	height: 40px;
+	background-position: 0 -582px;
+}
+footer #footer .foot_bot a:nth-child(2){
+	width: 156px;
+	height: 45px;
+	background-position: 0 -629px;
+}
+footer #footer .foot_bot a:nth-child(3){
+	width: 96px;
+	height: 42px;
+	background-position: 0 -675px;
+}
+footer #footer .foot_bot a:nth-child(4){
+	width: 101px;
+	height: 42px;
+	background-position: -97px -675px;
+}
+/*footer结束*/

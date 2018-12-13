@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/sweater.css"/>
+	<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
+<body>
+	<!--header开始-->
+	<header>
+		<div id="head">
+			<div id="head_con">
+				<span class="welcome">您好,欢迎光临凡客诚品！ </span>
+				<a href="login.html">登录</a>
+				<span class="line"> | </span>
+				<a href="register.html">注册</a> 
+				<a href="#" id="dingdan">我的订单</a>
+				<span id="notice">网站公告</span>
+				<a href="#" id="wx">
+					<img src="img/wx.jpg"/>
+					<img src="img/wx_hover.png" id="wx_hover"/>
+				</a>
+				<a href="#"><img src="img/wb.jpg"/></a>
+				
+				
+			</div>
+		</div>
+		
+		<div id="header">
+			<div id="search">
+				<input id="search_txt" type="text" value="搜“熊本熊”，体验与众不同" />
+				<a href="#" class="gwc">购物车(0)</a>
+				<a href="#" class="searchBtn"></a>
+			</div>
+			<div id="hotSearch">
+				<span>热门搜索：</span>
+				<a href="#">免烫衬衫</a>
+				<a href="#">羽绒服</a>
+				<a href="#">外套</a>
+				<a href="#">熊本熊</a>
+				<a href="#">运动户外</a>
+				<a href="#">帆布鞋</a>
+				<a href="#">水柔棉</a>
+			</div>
+			<div id="nav">
+				<div id="logo">
+					<a href="index.html"><img src="img/logo.png"/></a>
+				</div>
+				<div id="naver">
+					<ul>
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="#">衬衫</a><span></span>
+							<p><img src="img/icon_hot.png"/></p>
+							<ol class="li_hover">
+								<li><a href="#">免烫</a></li> <li><a href="#">易打理</a></li> 
+								<li><a href="#">高支</a></li> <li><a href="#">休闲</a></li>
+								<li><a href="#">牛津纺</a></li> <li><a href="#">法兰绒</a></li> 
+								<li><a href="#">青年布</a></li> <li><a href="#">牛仔</a></li>
+								<li><a href="#">麻</a></li> <li><a href="#">泡泡纱</a></li> 
+								<li><a href="#">水洗棉</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">羽绒服</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">短款羽绒服</a></li> 
+								<li><a href="#">长款羽绒服</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">卫衣</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">熊本熊</a></li> <li><a href="#">开衫</a></li> 
+								<li><a href="#">连帽</a></li> <li><a href="#">圆领</a></li>
+								<li><a href="#">水柔棉</a></li> 
+							</ol>
+						</li>
+						<li>
+							<a href="#">外套</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">运动户外</a></li> <li><a href="#">皮肤衣</a></li> 
+								<li><a href="#">西服</a></li> <li><a href="#">C9设计款</a></li>
+								<li><a href="#">夹克</a></li> <li><a href="#">nautilus</a></li> 
+								<li><a href="#">大衣</a></li> <li><a href="#">羽绒服</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">针织衫</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">空调衫</a></li> <li><a href="#">棉线衫</a></li> 
+								<li><a href="#">羊毛衫</a></li> 
+							</ol>
+						</li>
+						<li>
+							<a href="#">裤装</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">沙滩裤</a></li> <li><a href="#">针织裤</a></li> 
+								<li><a href="#">休闲裤</a></li> <li><a href="#">牛仔裤</a></li> 
+								<li><a href="#">运动裤</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">鞋</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">复古跑鞋</a></li> <li><a href="#">帆布鞋</a></li> 
+								<li><a href="#">休闲鞋</a></li> 
+							</ol>
+						</li>
+						<li>
+							<a href="#">家居配饰</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">床品套件</a></li> <li><a href="#">被子</a></li> 
+								<li><a href="#">枕</a></li> <li><a href="#">家居服</a></li> 
+								<li><a href="#">家居鞋</a></li> <li><a href="#">背提包</a></li> 
+								<li><a href="#">拉杆箱</a></li> <li><a href="#">皮带钱包</a></li> 
+								<li><a href="#">帽子</a></li> <li><a href="#">毛巾</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">内衣袜品</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">船袜</a></li> <li><a href="#">中筒袜</a></li> 
+								<li><a href="#">连裤袜</a></li> <li><a href="#">内衣裤</a></li> 
+								<li><a href="#">围巾披肩</a></li> <li><a href="#">童装</a></li> 
+							</ol>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--header结束-->
+	
+	
+	
+	<!--banner开始-->
+	<div id="banner">
+		<div id="banner_con"></div>	
+	</div>
+	<!--banner结束-->
+	
+	
+	
+	<!--section开始-->
+	<section>
+		<div id="section">
+			<div class="yl">
+				<div class="tit_img">
+					<img src="img/yl.jpg"/>
+				</div>
+				<div class="yl_list">
+					<ul>
+						<li><a href="#">
+							<!--<img src="img/yl1.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl2.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥65.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl1.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl2.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥65.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl1.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl2.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 黑色</h3>
+							<p>
+								<span>售价￥156</span><b>充值购买相当于￥65.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl1.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 浅花灰</h3>
+							<p>
+								<span>售价￥156</span><b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl2.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 黑色</h3>
+							<p>
+								<span>售价￥156</span><b>充值购买相当于￥65.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl2.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 浅花灰</h3>
+							<p>
+								<span>售价￥156</span><b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/yl1.jpg"/>
+							<h3>凡客卫衣 圆领 熊本熊 S1 黑色</h3>
+							<p>
+								<span>售价￥156</span><b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<div class="yl">
+				<div class="tit_img">
+					<img src="img/lm.jpg"/>
+				</div>
+				<div class="yl_list">
+					<ul>
+						<li><a href="#">
+							<!--<img src="img/lm1.jpg"/>
+							<h3>凡客卫衣 暖绒连帽 熊本熊 S38 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥66.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm2.jpg"/>
+							<h3>凡客卫衣 基础连帽 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥88.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm1.jpg"/>
+							<h3>凡客卫衣 暖绒连帽 熊本熊 S38 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥66.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm2.jpg"/>
+							<h3>凡客卫衣 基础连帽 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥88.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm1.jpg"/>
+							<h3>凡客卫衣 暖绒连帽 熊本熊 S38 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥66.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm2.jpg"/>
+							<h3>凡客卫衣 基础连帽 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥88.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm1.jpg"/>
+							<h3>凡客卫衣 暖绒连帽 熊本熊 S38 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥66.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm2.jpg"/>
+							<h3>凡客卫衣 基础连帽 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥88.0</b>
+							</p>-->
+						</a></li><li><a href="#">
+							<!--<img src="img/lm1.jpg"/>
+							<h3>凡客卫衣 暖绒连帽 熊本熊 S38 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥66.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/lm2.jpg"/>
+							<h3>凡客卫衣 基础连帽 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥88.0</b>
+							</p>-->
+						</a></li><li><a href="#">
+							<!--<img src="img/lm1.jpg"/>
+							<h3>凡客卫衣 暖绒连帽 熊本熊 S38 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥66.0</b>
+							</p>-->
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<div class="yl">
+				<div class="tit_img">
+					<img src="img/ks.jpg"/>
+				</div>
+				<div class="yl_list">
+					<ul>
+						<li><a href="#">
+							<!--<img src="img/ks1.jpg"/>
+							<h3>凡客卫衣 暖绒开衫 男款 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥97.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks2.jpg"/>
+							<h3>凡客卫衣 基础拉链开衫 女 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥79.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks1.jpg"/>
+							<h3>凡客卫衣 暖绒开衫 男款 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥97.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks2.jpg"/>
+							<h3>凡客卫衣 基础拉链开衫 女 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥79.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks1.jpg"/>
+							<h3>凡客卫衣 暖绒开衫 男款 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥97.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks2.jpg"/>
+							<h3>凡客卫衣 基础拉链开衫 女 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥79.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks1.jpg"/>
+							<h3>凡客卫衣 暖绒开衫 男款 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥97.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks1.jpg"/>
+							<h3>凡客卫衣 暖绒开衫 男款 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥79.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/ks2.jpg"/>
+							<h3>凡客卫衣 基础拉链开衫 女 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥97.0</b>
+							</p>-->
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<div class="yl">
+				<div class="tit_img">
+					<img src="img/brm.jpg"/>
+				</div>
+				<div class="yl_list">
+					<ul>
+						<li><a href="#">
+							<!--<img src="img/brm1.jpg"/>
+							<h3>凡客外套 水柔棉 拉链开衫 男款 藏蓝色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥86.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/brm1.jpg"/>
+							<h3>凡客外套 水柔棉 拉链开衫 男款 藏蓝色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥86.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/brm1.jpg"/>
+							<h3>凡客外套 水柔棉 拉链开衫 男款 藏蓝色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥86.0</b>
+							</p>-->
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<div class="yl">
+				<div class="tit_img">
+					<img src="img/tz.jpg"/>
+				</div>
+				<div class="yl_list">
+					<ul>
+						<li><a href="#">
+							<!--<img src="img/tz1.jpg"/>
+							<h3>童装卫衣 圆领 熊本熊 S6 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/tz2.jpg"/>
+							<h3>童装卫衣 圆领 熊本熊 S9 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥83.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/tz1.jpg"/>
+							<h3>童装卫衣 圆领 熊本熊 S6 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/tz2.jpg"/>
+							<h3>童装卫衣 圆领 熊本熊 S9 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥83.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/tz1.jpg"/>
+							<h3>童装卫衣 圆领 熊本熊 S6 黑色</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥78.0</b>
+							</p>-->
+						</a></li>
+						<li><a href="#">
+							<!--<img src="img/tz2.jpg"/>
+							<h3>童装卫衣 圆领 熊本熊 S9 浅花灰</h3>
+							<p>
+								<span>售价￥156</span>
+								<b>充值购买相当于￥83.0</b>
+							</p>-->
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<div class="hotSearch">
+				<div class="searchInput">
+					<input type="text" value="" /><input type="button" id="" value="" />
+				</div>
+				<div class="hotWord">
+					热门关键词：<a href="#">免烫衬衫</a> <a href="#">羽绒服</a> <a href="#">外套</a>
+					<a href="#">熊本熊</a> <a href="#">运动户外</a> <a href="">帆布鞋</a>
+					<a href="#">水柔棉</a>
+				</div>
+			</div>
+			
+			
+			
+			<div class="help">
+				<div class="top">
+					<div class="left">
+						<a href="#">
+							<img src="img/onlinecustomer.png"/>
+							<span>7X9小时在线客服</span>
+						</a>
+					</div>
+					<div class="center">
+						<a href="#">
+							<img src="img/seven.png"/>
+							<p>7天内退货<br />购物满199元免运费</p>
+						</a>
+					</div>
+					<div class="right">
+						<img src="img/fkewm.jpg"/>
+						<p>扫描下载<span>凡客</span>客户端</p>
+					</div>
+				</div>
+				<div class="bottom">
+					<ul>
+						<li><a href="#">关于凡客</a><span></span></li>
+						<li><a href="#">新手指南</a><span></span></li>
+						<li><a href="#">配送范围及时间</a><span></span></li>
+						<li><a href="#">支付方式</a><span></span></li>
+						<li><a href="#">售后服务</a><span></span></li>
+						<li><a href="#">帮助中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--section结束-->
+	
+	
+	
+	
+	
+	<!--footer开始-->
+	<footer>
+		<div id="foot_top">
+			Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号<br />凡客诚品（北京）科技有限公司
+		</div>
+		<div id="foot_bot">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+		</div>
+	</footer>
+	<!--footer结束-->
+</body>
+</html>
+<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/sweater.js" type="text/javascript" charset="utf-8"></script>

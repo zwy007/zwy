@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/shoppingInfo.css"/>
+	<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shoppingInfo.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<!--header开始-->
+	<header>
+		<div id="head">
+			<div id="head_con">
+				<span class="welcome">您好,<b class="showUserName">欢迎光临凡客诚品！ </b></span>
+				<a href="login.html">登录</a>
+				<span class="line"> | </span>
+				<a href="register.html">注册</a> 
+				<a href="#" id="dingdan">我的订单</a>
+				<span id="notice">网站公告</span>
+				<a href="#" id="wx">
+					<img src="img/wx.jpg"/>
+					<img src="img/wx_hover.png" id="wx_hover"/>
+				</a>
+				<a href="#"><img src="img/wb.jpg"/></a>
+				
+				
+			</div>
+		</div>
+		
+		<div id="header">
+			<div id="search">
+				<input id="search_txt" type="text" />
+				<a href="#" class="gwc">购物车(0)</a>
+				<a href="#" class="searchBtn"></a>
+			</div>
+			<div id="hotSearch">
+				<span>热门搜索：</span>
+				<a href="#">免烫衬衫</a>
+				<a href="#">羽绒服</a>
+				<a href="#">外套</a>
+				<a href="#">熊本熊</a>
+				<a href="#">运动户外</a>
+				<a href="#">帆布鞋</a>
+				<a href="#">水柔棉</a>
+			</div>
+			<div id="nav">
+				<div id="logo">
+					<a href="index.html"><img src="img/logo.png"/></a>
+				</div>
+				<div id="naver">
+					<ul>
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="#">衬衫</a><span></span>
+							<p><img src="img/icon_hot.png"/></p>
+							<ol class="li_hover">
+								<li><a href="#">免烫</a></li> <li><a href="#">易打理</a></li> 
+								<li><a href="#">高支</a></li> <li><a href="#">休闲</a></li>
+								<li><a href="#">牛津纺</a></li> <li><a href="#">法兰绒</a></li> 
+								<li><a href="#">青年布</a></li> <li><a href="#">牛仔</a></li>
+								<li><a href="#">麻</a></li> <li><a href="#">泡泡纱</a></li> 
+								<li><a href="#">水洗棉</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">羽绒服</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">短款羽绒服</a></li> 
+								<li><a href="#">长款羽绒服</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="sweater.html">卫衣</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">熊本熊</a></li> <li><a href="#">开衫</a></li> 
+								<li><a href="#">连帽</a></li> <li><a href="#">圆领</a></li>
+								<li><a href="#">水柔棉</a></li> 
+							</ol>
+						</li>
+						<li>
+							<a href="#">外套</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">运动户外</a></li> <li><a href="#">皮肤衣</a></li> 
+								<li><a href="#">西服</a></li> <li><a href="#">C9设计款</a></li>
+								<li><a href="#">夹克</a></li> <li><a href="#">nautilus</a></li> 
+								<li><a href="#">大衣</a></li> <li><a href="#">羽绒服</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">针织衫</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">空调衫</a></li> <li><a href="#">棉线衫</a></li> 
+								<li><a href="#">羊毛衫</a></li> 
+							</ol>
+						</li>
+						<li>
+							<a href="#">裤装</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">沙滩裤</a></li> <li><a href="#">针织裤</a></li> 
+								<li><a href="#">休闲裤</a></li> <li><a href="#">牛仔裤</a></li> 
+								<li><a href="#">运动裤</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">鞋</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">复古跑鞋</a></li> <li><a href="#">帆布鞋</a></li> 
+								<li><a href="#">休闲鞋</a></li> 
+							</ol>
+						</li>
+						<li>
+							<a href="#">家居配饰</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">床品套件</a></li> <li><a href="#">被子</a></li> 
+								<li><a href="#">枕</a></li> <li><a href="#">家居服</a></li> 
+								<li><a href="#">家居鞋</a></li> <li><a href="#">背提包</a></li> 
+								<li><a href="#">拉杆箱</a></li> <li><a href="#">皮带钱包</a></li> 
+								<li><a href="#">帽子</a></li> <li><a href="#">毛巾</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#">内衣袜品</a><span></span>
+							<ol class="li_hover">
+								<li><a href="#">船袜</a></li> <li><a href="#">中筒袜</a></li> 
+								<li><a href="#">连裤袜</a></li> <li><a href="#">内衣裤</a></li> 
+								<li><a href="#">围巾披肩</a></li> <li><a href="#">童装</a></li> 
+							</ol>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--header结束-->
+	
+	
+	
+	<!--section开始-->
+	<section>
+		<div id="section">
+			<div class="path">
+				<a href="index.html">首页</a> > 
+				<a href="sweater.html">套头卫衣</a> > 
+				<a href="#">凡客卫衣 圆领 熊本熊 S2</a>
+			</div>
+			<div class="nav">
+				<div class="nav_left"> 
+					<h3>凡客卫衣 圆领 熊本熊 S3 浅花灰</h3><b>充值购买更优惠</b>
+				</div>
+				<div class="nav_gwc">
+					<a href="#"></a>
+				</div>
+				<div class="nav_right">
+					<ul class="nav_list">
+						<li><a href="#mtdp" class="nav_on">模特搭配</a>|</li>
+						<li><a href="#gmzn">购买指南</a>|</li>
+						<li><a href="#mltd">面料特点</a>|</li>
+						<li><a href="#xdby">洗涤保养</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="goodsinfo">
+				<ul id="imgList">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div id="bigBox">
+					<div id="mirrorBox"></div>
+					<div id="showBox"></div>
+				</div>
+				<div class="goodsAttr">
+					<div class="thj">
+						特惠价：￥<span>156.00 </span>充100返100，点击充值
+					</div>
+					<div class="color">
+						<div class="color_word">颜色：</div>
+						<div class="tab">
+							<a href="javascript:void(0)"><img src="img/fdj_1_S.jpg"/><span>S3 浅花灰</span></a>
+							
+						</div>
+					</div>
+					<div class="size">
+						<div class="size_word">尺码：</div>
+						<div class="size_choice">
+							<a href="javascript:void(0)">L</a>
+							<a href="javascript:void(0)">XL</a>
+							<a href="javascript:void(0)">XXL</a>
+						</div>
+					</div>
+					<div class="number">
+						<div class="number_word">数量：</div>
+						<div class="number_con">
+							<select>
+								<option>1</option><option>2</option><option>3</option>
+								<option>4</option><option>5</option><option>6</option>
+								<option>7</option><option>8</option><option>9</option>
+							</select>
+							<span>余量有限</span>
+						</div>
+					</div>
+					<div class="checked">
+						<div class="checked_word">已选：</div>
+						<div class="checked_con">
+							<span>S3 浅花灰</span>
+							 <b>现在有货</b>
+						</div>
+					</div>
+					<div class="buy_gwc">
+						<a href="javascript:void(0)" class="buy">立即购买</a>
+						<a href="javascript:void(0)" class="gwc"></a>
+						
+					</div>
+					<div class="yhts">
+						<h3>优惠提示</h3>
+						<div class="yhts_con">
+							<span>免邮</span><b>全场购物满199元免邮费</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="mtdp">
+				<div class="mtdp_con">
+					<p>
+						<img src="img/yls2_01.jpg"/>
+					</p>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_19.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_20.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_21.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_22.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_23.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_24.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_25.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_26.jpg"/></td> </tr>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/ylxbx_27.jpg"/></td> </tr>
+					</table>
+				</div>
+			</div>
+			<div id="gmzn">
+				<div class="gmzn_con">
+					<p>
+						<img src="img/gmzn_01.jpg"/>
+					</p>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/gmzn_02.jpg"/></td> </tr>
+					</table>
+				</div>
+			</div>
+			<div id="mltd">
+				<div class="mltd_con">
+					<p>
+						<img src="img/mltd_01.jpg"/>
+					</p>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/mltd_02.jpg"/></td> </tr>
+					</table>
+				</div>
+			</div>
+			<div id="xdby">
+				<div class="xdby_con">
+					<p>
+						<img src="img/xdby_01.jpg"/>
+					</p>
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr> <td><img src="img/xdby_02.jpg"/></td> </tr>
+					</table>
+				</div>
+			</div>
+			
+			<div class="area">
+				<h3>产品属性：(点击属性可查看同类商品)</h3>
+				<ul>
+					<li>pagevideourl：<a href="javascript:void(0)">http://video.van...</a></li>
+				</ul>
+			</div>
+			
+			
+			<div class="help">
+				<div class="top">
+					<div class="left">
+						<a href="#">
+							<img src="img/onlinecustomer.png"/>
+							<span>7X9小时在线客服</span>
+						</a>
+					</div>
+					<div class="center">
+						<a href="#">
+							<img src="img/seven.png"/>
+							<p>7天内退货<br />购物满199元免运费</p>
+						</a>
+					</div>
+					<div class="right">
+						<img src="img/fkewm.jpg"/>
+						<p>扫描下载<span>凡客</span>客户端</p>
+					</div>
+				</div>
+				<div class="bottom">
+					<ul>
+						<li><a href="#">关于凡客</a><span></span></li>
+						<li><a href="#">新手指南</a><span></span></li>
+						<li><a href="#">配送范围及时间</a><span></span></li>
+						<li><a href="#">支付方式</a><span></span></li>
+						<li><a href="#">售后服务</a><span></span></li>
+						<li><a href="#">帮助中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--section结束-->
+	
+	<div id="add_success">
+		<div class="add_success_head">
+			<span>商品成功放入购物车</span>
+			<span class="close"></span>
+		</div>
+		<div class="add_success_con">
+			<div class="showAttr">
+				<div class="lefts">
+					<div class="gwc_img"></div>
+					<div class="line"></div>
+					<div class="attr">
+						<p>共有<b>1</b>件商品</p>
+						<p>总计<b>￥156.00</b></p>
+					</div>
+				</div>
+				<div class="rights">
+					<a class="ljBuy" href="index.html"><<继续购物</a>
+					<a class="joinGwc" href="shopping.html">去购物车>></a>
+				</div>
+			</div>
+			<div class="tuijian">
+				<div class="tj_tit">推荐产品</div>
+				<div class="tj_con">
+					<div class="tj_con_list">
+						<img src="img/tj_01.jpg"/>
+						<p>MA1飞行夹克 双面穿 薄棉 C9 军绿色</p>
+						<b>售价￥218</b>
+					</div>
+					<div class="tj_con_list">
+						<img src="img/tj_02.jpg"/>
+						<p>凡客卫衣 圆领 熊本熊 S2 浅花灰</p>
+						<b>售价￥156</b>
+					</div>
+					<div class="tj_con_list">
+						<img src="img/tj_03.jpg"/>
+						<p>凡客帆布鞋 高帮 男款 黑色</p>
+						<b>售价￥138</b>
+					</div>
+					<div class="tj_con_list">
+						<img src="img/tj_04.jpg"/>
+						<p>凡客衬衫 牛津纺 男款 天蓝色</p>
+						<b>售价￥138</b>
+					</div>
+					<div class="tj_con_list">
+						<img src="img/tj_05.jpg"/>
+						<p>凡客帆布鞋 女款 黑色</p>
+						<b>售价￥138</b>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--footer开始-->
+	<footer>
+		<div id="foot_top">
+			Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号<br />凡客诚品（北京）科技有限公司
+		</div>
+		<div id="foot_bot">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+		</div>
+	</footer>
+	<!--footer结束-->
+</body>
+</html>
+<script src="js/public.js" type="text/javascript" charset="utf-8"></script>

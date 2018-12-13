@@ -1,0 +1,165 @@
+/*header开始*/
+header{
+	width: 100%;
+	height: 69px;
+	background: white;
+}
+header #header{
+	width: 1190px;
+	height: 68px;
+	padding: 0 5px;
+	background: white;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #919191;
+}
+/*header结束*/
+
+
+/*section开始*/
+section{
+	width: 100%;
+	padding: 45px 0;
+	/*background: skyblue;*/
+}
+section #section{
+	width: 1200px;
+	/*background: pink;*/
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+section #section .left{
+	width: 465px;
+	height: 352px;
+}
+section #section .right{
+	width: 420px;
+	background: white;
+}
+section #section .right .title{
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px solid #b81e20;
+	font-size: 20px;
+	color: #a2a7b3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 19px;
+}
+section #section .right .title p:nth-child(2){
+	font-size: 14px;
+	color: #a2a2a2;
+}
+section #section .right .title p:nth-child(2) a{
+	color: #b52024;
+}
+section #section .right form p{
+	width: 410px;
+	height: 45px;
+	background: white;
+	margin: 20px auto;
+}
+section #section .right .title p a:hover{
+	text-decoration: underline;
+}
+section #section .right form #read_agree{
+	height: 26px;
+	font-size: 14px;
+	color: #9d9d9d;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+}
+section #section .right form #read_agree input{
+	width: 16px;
+	height: 16px;
+}
+section #section .right form #read_agree a{
+	color: #c22624;
+	font-size: 12px;
+}
+section #section .right form p:last-child{
+	margin-bottom: 0;
+}
+section #section .right form p input{
+	width: 410px; height: 43px; line-height: 43px;
+	outline: none; border: none; text-indent: 10px;
+	background: #9a9a9a; font-size: 16px; color: #818b86;
+}
+section #section .right form p input[type='submit']{
+	color: white;
+}
+section #section .right form .diff input{
+	width: 408px; background: white;
+	border: 1px solid #cbcbcb;
+}
+section #section .right form input::-webkit-input-placeholder{
+	color: #b1b1b1; font-size: 14px; text-align: left; text-indent: 10px;
+}
+section #section .right form .yzm{
+	width: 410px;
+}
+section #section .right form .yzm input{
+	width: 260px;
+}
+section #section .right form .yzm em{
+	width: 138px; height: 43px; display: inline-block; border: 1px solid #cbcbcb;margin-left: 3px;
+	background: white; font-size: 20px; text-align: center; line-height: 43px;
+}
+/*section结束*/
+
+
+/*footer开始*/
+footer{
+	width: 100%;
+	padding-bottom: 25px;
+	background: white;
+}
+footer #footer{
+	width: 1200px;
+	height: ;
+	background: white;
+	margin: 0 auto;
+}
+footer #footer .foot_top{
+	line-height: 55px;
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+}
+footer #footer .foot_bot{
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer #footer .foot_bot a{
+	display: block;
+	background: url(../img/spritesbgtop.png);
+	margin: 0 10px;
+}
+footer #footer .foot_bot a:nth-child(1){
+	width: 112px;
+	height: 40px;
+	background-position: 0 -582px;
+}
+footer #footer .foot_bot a:nth-child(2){
+	width: 156px;
+	height: 45px;
+	background-position: 0 -629px;
+}
+footer #footer .foot_bot a:nth-child(3){
+	width: 96px;
+	height: 42px;
+	background-position: 0 -675px;
+}
+footer #footer .foot_bot a:nth-child(4){
+	width: 101px;
+	height: 42px;
+	background-position: -97px -675px;
+}
+/*footer结束*/
