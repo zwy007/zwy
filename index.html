@@ -365,7 +365,7 @@
         autoPlay: true
     });
 
-
+	
 
 //	❤回顶部
 	var myTimer = null;
@@ -380,4 +380,12 @@
 			document.body.scrollTop = currentTop;
 		},1);
 	})
+	
+	$(function(){
+		let username = ''
+		$.ajax('php/login_con.php',{$userName:'18093484434'},function(data){
+			console.log(data);
+		})
+	})
+	
 </script>

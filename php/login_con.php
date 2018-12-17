@@ -27,7 +27,7 @@
 						window.location.href = '../index.html';
 					</script>
 				";
-			}else{
+		}else{
 				echo "
 					<script>
 						alert('用户名或密码有误，请重新输入');

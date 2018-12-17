@@ -31,6 +31,7 @@ $(function(){
 			forms[this.index].style.display = 'block';
 		}
 	}
+	
 })
 
 
@@ -47,7 +48,6 @@ $(function(){
 	})
 //	账号验证码方式
 	let inputss = $('#logon_fast input');
-	console.log(inputss);
 	inputss.each(function(){
 		if ($(this).attr('type') == 'text') {
 			$(this).on('blur',()=>{
@@ -97,3 +97,4 @@ $(function(){
 		}
 	});
 })
+
